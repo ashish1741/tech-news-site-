@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.conatiner
+{
+    margin: auto;
+    text-align: center;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    background-color: teal;
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.pagenation_section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+.number
+{
+    color: rgb(178, 178, 178);
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+.card
+{
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card h2
+{
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.card p
+{
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.card_btn
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.card_btn a
+{
+    padding: 1rem;
+    text-decoration: none;
+    text-align: left;
+    color:rgb(8, 8, 8);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+a:hover
+{
+    color: red;
+    transition: 0.5s ease;
+}
+.search_section
+{
+    margin: .5rem;
+    padding: .5rem; 
+}
+input
+{
+    border: none;
+    outline: none;
+    padding: .5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+input:active
+{
+    border: rgb(0, 0, 0);
+
+}
+.title{
+    padding: 1rem;
+    text-shadow: 4px 2px 4px #000000, 4px 2px 4px #000000;
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+
+}
+.btn
+{
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.btn:hover
+{
+    background-color: rgb(7, 7, 7);
+    color: white;
+    transition: 0.5s ease;
+}
+
